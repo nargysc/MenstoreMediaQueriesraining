@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@600&display=swap");
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+}
+@font-face {
+  font-family: "Lexend Exa", sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  src: url("https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@600&display=swap");
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  max-width: 1500px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 0.9rem;
+}
+
+.phoneinfo {
+  font-family: "PT Sans", sans-serif;
+  color: #969696;
+  font-size: 12px;
+}
+
+nav {
+  background: #0F0F0F;
+  padding: 1.8rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav p {
+  font-family: "Lexend Exa", sans-serif;
+  font-weight: 500;
+  color: white;
+  margin-right: 5%;
+  position: relative;
+}
+nav ul {
+  display: inline;
+  list-style: none;
+  color: white;
+}
+nav li {
+  display: inline;
+  line-height: 10px;
+  margin: 1em;
+  color: white;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  transition: 0.3s;
+}
+nav a:hover {
+  border: 1px solid #1F1F1F;
+  padding: 25px 25px 25px 25px;
+  border-radius: 5%;
+  background: #1F1F1F;
+}
+
+.head {
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+div img {
+  width: 100%;
+}
+
+div p .port {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  margin-top: -25%;
+  font-family: "Lexend Exa", sans-serif;
+}
+
+.porten {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  margin-top: -25%;
+  font-family: "Lexend Exa", sans-serif;
+}
+
+.city {
+  margin-top: 1%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  font-family: "Lexend Exa", sans-serif;
+}
+
+.sss {
+  height: 750px;
+  background-color: black;
+}
+
+.season_text {
+  color: white;
+  display: flex;
+  padding-top: 20%;
+  padding-left: 15%;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.info {
+  margin-left: 3%;
+  margin-top: 5%;
+  border: 1px solid #1F1F1F;
+  border-radius: 5px;
+  background-color: #1F1F1F;
+  color: white;
+  padding: 10px;
+  height: 230px;
+  width: 230px;
+  transition: 0.2s;
+}
+
+.info:hover {
+  scale: 1.2;
+}
+
+.textinfo {
+  margin-left: 5.5%;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+}
+
+.photoman {
+  width: 40rem;
+  float: right;
+  margin-top: -30%;
+}
+
+.menpic {
+  margin-top: -1%;
+  width: 40%;
+}
+
+.newsection {
+  background-color: black;
+}
+
+.righttext {
+  float: right;
+  margin-top: -15%;
+  margin-right: 26%;
+  font-size: 3em;
+  color: white;
+  transition: 0.2s;
+}
+
+.righttext:hover {
+  scale: 1.2;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1F1F1F;
+  color: white;
+  padding: 10px;
+  font-family: "PT Sans", sans-serif;
+}
+
+/*medias*/
+@media screen and (max-width: 768px) {
+  div {
+    width: 100%;
+  }
+
+  .photoman {
+    margin-top: 8%;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+  }
+
+  ul {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    display: none;
+  }
+
+  .textinfo {
+    display: none;
+  }
+
+  .menpic {
+    width: 100%;
+  }
+
+  .season_text {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .photoman {
+    width: 100%;
+    margin-top: 16%;
+  }
+
+  .season_text {
+    display: none;
+  }
+
+  .porten {
+    font-size: 0.5em;
+  }
+
+  .city {
+    font-size: 0.5em;
+  }
+
+  ul {
+    font-size: 0.2em;
+  }
+
+  .menpic {
+    width: 100%;
+  }
+}
